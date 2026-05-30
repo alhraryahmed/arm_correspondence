@@ -5,6 +5,25 @@ app_description = "المراسلات الادارية"
 app_email = "alhraryahmed110@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    # تصدير تخصيصات الحقول المضافة
+    {"dt": "Custom Field", "filters": [["dt", "in", ["Administrative Letter"]]]},
+    
+    # تصدير السكريبتات الخاصة بالمنظومة (Server + Client)
+    {"dt": "Client Script", "filters": [["dt", "in", ["Administrative Letter"]]]},
+    {"dt": "Server Script", "filters": [["reference_doctype", "in", ["Administrative Letter"]]]},
+    
+    # تصدير إعدادات شاشة القائمة والـ DocType نفسه
+    {"dt": "Property Setter", "filters": [["doc_type", "in", ["Administrative Letter"]]]},
+    
+    # تصدير التشارت ولوحة التحكم (Dashboard & Charts) الملونة للحالات والأولويات
+    {"dt": "Dashboard Chart", "filters": [["chart_name", "like", "%Administrative%"]]},
+    {"dt": "Dashboard", "filters": [["name", "like", "%Administrative%"]]},
+    
+    # 📑 السطر السحري لتصدير قوالب الطباعة الرسمية المربوطة بالمراسلات
+    {"dt": "Print Format", "filters": [["doc_type", "in", ["Administrative Letter"]]]}
+]
+
 # Apps
 # ------------------
 

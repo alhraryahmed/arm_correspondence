@@ -1,0 +1,18 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "Administrative Letter",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "is_system_generated": 1,
+  "modified": "2026-05-29 22:22:46.730559",
+  "module": null,
+  "name": "Administrative Letter-main-default_print_format",
+  "property": "default_print_format",
+  "property_type": "Data",
+  "row_name": null,
+  "value": "المراسلات الادارية"
+ }
+]

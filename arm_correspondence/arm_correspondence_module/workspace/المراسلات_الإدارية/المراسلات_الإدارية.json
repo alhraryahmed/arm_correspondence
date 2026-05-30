@@ -1,0 +1,157 @@
+{
+ "charts": [
+  {
+   "chart_name": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629 \u062d\u0633\u0628 \u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629",
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629 \u062d\u0633\u0628 \u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629"
+  }
+ ],
+ "content": "[{\"id\":\"KLibjaQ9WL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a\",\"col\":12}},{\"id\":\"1V0IV42N9b\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Tpn9DKIsWq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629 \u062d\u0633\u0628 \u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629\",\"col\":12}},{\"id\":\"wRuTsth2W0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0631\u0633\u0644\u0629\",\"col\":4}},{\"id\":\"Vf7b2W8awX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0644\u0645\u0629\",\"col\":4}},{\"id\":\"XAtAFtqBmi\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0624\u0631\u0634\u0641\u0629\",\"col\":4}},{\"id\":\"6QMhyRz3G-\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"zMA-kKFUdd\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>\u0625\u062e\u062a\u0635\u0627\u0631\u0627\u062a\u0643</b></span>\",\"col\":12}},{\"id\":\"yjKNCBmbE9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629\",\"col\":3}},{\"id\":\"sOSYhXBCS1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \",\"col\":3}},{\"id\":\"IaGjm8zoCe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u062f\u0644\u064a\u0644 \u0627\u0644\u0623\u0642\u0633\u0627\u0645\",\"col\":3}},{\"id\":\"k6mBFULrez\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0635\u0627\u062f\u0631\u0629\",\"col\":3}},{\"id\":\"rEUn3T08uu\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VSkrmFBCyd\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0648\u0627\u0644\u0627\u0639\u062f\u0627\u062f\u0627\u062a\",\"col\":4}},{\"id\":\"rw0wWiOOeT\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":4}}]",
+ "creation": "2026-05-29 21:45:12.314930",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-file",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0625\u062f\u0627\u0631\u064a\u0629",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0648\u0627\u0644\u0627\u0639\u062f\u0627\u062f\u0627\u062a",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0625\u0646\u0634\u0627\u0621 \u0645\u0631\u0627\u0633\u0644\u0629 \u062c\u062f\u064a\u062f\u0629",
+   "link_count": 0,
+   "link_to": "Administrative Letter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0642\u0648\u0627\u0644\u0628 \u0625\u0639\u062f\u0627\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Letter Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0627\u0642\u0633\u0627\u0645",
+   "link_count": 0,
+   "link_to": "Department",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0644\u063a\u0627\u0629",
+   "link_count": 0,
+   "link_to": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0644\u063a\u0627\u0629",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Administrative Letter",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0627\u0642\u0633\u0627\u0645 \u0627\u0644\u0627\u0643\u062b\u0631 \u0625\u0635\u062f\u0627\u0631 \u0644\u0644\u0631\u0633\u0627\u0626\u0644",
+   "link_count": 0,
+   "link_to": "\u0627\u0644\u0627\u0642\u0633\u0627\u0645 \u0627\u0644\u0627\u0643\u062b\u0631 \u0625\u0635\u062f\u0627\u0631 \u0644\u0644\u0631\u0633\u0627\u0626\u0644",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Administrative Letter",
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-05-30 16:44:36.033492",
+ "modified_by": "Administrator",
+ "module": "arm_correspondence_module",
+ "name": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0625\u062f\u0627\u0631\u064a\u0629",
+ "number_cards": [
+  {
+   "label": "\u0627\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a",
+   "number_card_name": "\u0627\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a"
+  },
+  {
+   "label": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0631\u0633\u0644\u0629",
+   "number_card_name": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0631\u0633\u0644\u0629"
+  },
+  {
+   "label": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0644\u0645\u0629",
+   "number_card_name": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0644\u0645\u0629"
+  },
+  {
+   "label": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0624\u0631\u0634\u0641\u0629",
+   "number_card_name": "\u0625\u062c\u0645\u0627\u0644\u064a \u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0645\u0624\u0631\u0634\u0641\u0629"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 36.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0635\u0627\u062f\u0631\u0629",
+   "link_to": "Administrative Letter",
+   "stats_filter": "[[\"Administrative Letter\",\"owner\",\"is\",\"set\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629",
+   "link_to": "Administrative Letter",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a ",
+   "link_to": "Letter Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "format": "{}\u0623\u0642\u0633\u0627\u0645",
+   "label": "\u062f\u0644\u064a\u0644 \u0627\u0644\u0623\u0642\u0633\u0627\u0645",
+   "link_to": "Department",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0625\u062f\u0627\u0631\u064a\u0629"
+}

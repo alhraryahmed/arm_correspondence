@@ -1,0 +1,224 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CORR-.YYYY.-.####",
+ "creation": "2026-05-29 20:39:32.518885",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_efpb",
+  "amended_from",
+  "\u0642\u0633\u0645_\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a_\u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629_section",
+  "reference_number",
+  "letter_title",
+  "letter_date",
+  "letter_type",
+  "\u0642\u0633\u0645_\u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629_\u0648\u0627\u0644\u062d\u0627\u0644\u0629_section",
+  "priority",
+  "status",
+  "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0631\u0633\u0644_\u0648\u0627\u0644\u0645\u0633\u062a\u0644\u0645_section",
+  "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0633\u062a\u0644\u0645_column",
+  "recipient_department",
+  "recipient_name",
+  "recipient_email",
+  "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0631\u0633\u0644_column",
+  "sender_department",
+  "sender_name",
+  "sender_user",
+  "\u0642\u0633\u0645_\u0645\u062d\u062a\u0648\u0649_\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0629_section",
+  "letter_body",
+  "additional_notes",
+  "\u0642\u0633\u0645_\u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a_\u0648\u0627\u0644\u0635\u0648\u0631_section",
+  "attachments",
+  "department_approver"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_efpb",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0627\u062a \u0627\u0644\u0627\u062f\u0627\u0631\u064a\u0629"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Administrative Letter",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a_\u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629_section",
+   "fieldtype": "Section Break",
+   "label": "\u0642\u0633\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629"
+  },
+  {
+   "fieldname": "reference_number",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0627\u0634\u0627\u0631\u064a \u0627\u0644\u0627\u062f\u0627\u0631\u064a ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "letter_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0631\u0633\u0627\u0644\u0629",
+   "reqd": 1
+  },
+  {
+   "fieldname": "letter_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0631\u0633\u0627\u0644\u0629",
+   "reqd": 1
+  },
+  {
+   "fieldname": "letter_type",
+   "fieldtype": "Link",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0631\u0633\u0627\u0644\u0629",
+   "options": "Letter Template",
+   "reqd": 1
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629_\u0648\u0627\u0644\u062d\u0627\u0644\u0629_section",
+   "fieldtype": "Section Break",
+   "label": "\u0642\u0633\u0645 \u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629 \u0648\u0627\u0644\u062d\u0627\u0644\u0629"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0631\u0633\u0627\u0644\u0629 (\u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629)",
+   "options": "\u0639\u0627\u062f\u064a\u0629\n\u0639\u0627\u062c\u0644\u0629\n\u0645\u0633\u062a\u0639\u062c\u0644\u0629\n\u0645\u0647\u0645\u0629"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "\u0645\u0633\u0648\u062f\u0629",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0625\u062c\u0631\u0627\u0626\u064a\u0629",
+   "options": "\u0645\u0633\u0648\u062f\u0629\n\u0645\u0631\u0633\u0644\u0629\n\u0645\u0633\u062a\u0644\u0645\u0629\n\u0645\u0624\u0631\u0634\u0641\u0629"
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0631\u0633\u0644_\u0648\u0627\u0644\u0645\u0633\u062a\u0644\u0645_section",
+   "fieldtype": "Section Break",
+   "label": "\u0642\u0633\u0645 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0631\u0633\u0644 \u0648\u0627\u0644\u0645\u0633\u062a\u0644\u0645"
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0631\u0633\u0644_column",
+   "fieldtype": "Column Break",
+   "label": "\u0642\u0633\u0645 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0631\u0633\u0644"
+  },
+  {
+   "fieldname": "sender_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0631\u0633\u0644",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0633\u062a\u0644\u0645_column",
+   "fieldtype": "Column Break",
+   "label": "\u0642\u0633\u0645 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0644\u0645"
+  },
+  {
+   "fieldname": "sender_department",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0642\u0633\u0645 \u0627\u0644\u0645\u0631\u0633\u0644 \u0645\u0646\u0647",
+   "options": "Department"
+  },
+  {
+   "fieldname": "sender_user",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0627\u0644\u0645\u0631\u0633\u0644",
+   "options": "User"
+  },
+  {
+   "fieldname": "recipient_department",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0642\u0633\u0645 \u0627\u0644\u0645\u0631\u0633\u0644 \u0625\u0644\u064a\u0647",
+   "options": "Department"
+  },
+  {
+   "fieldname": "recipient_name",
+   "fieldtype": "Link",
+   "label": "\u0625\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u0644\u0645 ",
+   "options": "User"
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0645\u062d\u062a\u0648\u0649_\u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0629_section",
+   "fieldtype": "Section Break",
+   "label": "\u0642\u0633\u0645 \u0645\u062d\u062a\u0648\u0649 \u0627\u0644\u0645\u0631\u0627\u0633\u0644\u0629"
+  },
+  {
+   "fieldname": "letter_body",
+   "fieldtype": "Text Editor",
+   "label": "\u0646\u0635 \u0627\u0644\u0631\u0633\u0627\u0644\u0629",
+   "reqd": 1
+  },
+  {
+   "fieldname": "additional_notes",
+   "fieldtype": "Small Text",
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0625\u0636\u0627\u0641\u064a\u0629"
+  },
+  {
+   "fieldname": "\u0642\u0633\u0645_\u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a_\u0648\u0627\u0644\u0635\u0648\u0631_section",
+   "fieldtype": "Section Break",
+   "label": "\u0642\u0633\u0645 \u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a \u0648\u0627\u0644\u0635\u0648\u0631"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Table",
+   "label": "\u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a",
+   "options": "Letter Attachment"
+  },
+  {
+   "fieldname": "department_approver",
+   "fieldtype": "Table",
+   "label": "\u0635\u0648\u0631\u0629 \u0627\u0644\u0649",
+   "options": "Department Approver"
+  },
+  {
+   "fetch_from": "recipient_name.email",
+   "fieldname": "recipient_email",
+   "fieldtype": "Data",
+   "label": "\u0628\u0631\u064a\u062f \u0627\u0644\u0645\u0633\u062a\u0644\u0645",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-05-29 23:55:08.263886",
+ "modified_by": "Administrator",
+ "module": "arm_correspondence_module",
+ "name": "Administrative Letter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

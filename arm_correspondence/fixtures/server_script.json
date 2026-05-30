@@ -1,0 +1,40 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Save",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2026-05-29 22:19:14.541349",
+  "module": "arm_correspondence_module",
+  "name": "المراسلات الادارية أتمتة للمرسل والمستلم",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Administrative Letter",
+  "script": "# لا تضع أي جمل import هنا، ابدأ الكود مباشرة:\r\n\r\n# تعيين تاريخ اليوم إن لم يكن محدداً (Frappe يوفر دالة frappe.utils.today تلقائياً)\r\nif not doc.letter_date:\r\n    doc.letter_date = frappe.utils.today()\r\n\r\n# التحقق من وجود القسم المرسِل\r\nif not doc.sender_department:\r\n    frappe.throw('يرجى تحديد القسم المرسل منه')\r\n\r\n# التحقق من وجود القسم المستلِم\r\nif not doc.recipient_department:\r\n    frappe.throw('يرجى تحديد القسم المرسل إليه')\r\n\r\n# تعيين الحالة الافتراضية\r\nif not doc.status:\r\n    doc.status = 'مسودة'",
+  "script_type": "DocType Event"
+ },
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Submit",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2026-05-29 23:30:08.244303",
+  "module": "arm_correspondence_module",
+  "name": "عند الاعتماد والإرسال (On Submit)",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Administrative Letter",
+  "script": "# يعمل بامتياز في حدث Before Submit لأن المستند لم يجمد بعد\r\ndoc.status = \"مرسلة\"\r\n\r\nrecipient_email = doc.recipient_email\r\nif not recipient_email and doc.owner:\r\n    recipient_email = doc.owner\r\n\r\nif recipient_email:\r\n    frappe.sendmail(\r\n        recipients=recipient_email,\r\n        subject=f\"مراسلة رسمية موجهة إليك: {doc.letter_title}\",\r\n        message=f\"<h3>مراسلة جديدة برقم: {doc.name}</h3>\"\r\n    )",
+  "script_type": "DocType Event"
+ }
+]
